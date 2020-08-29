@@ -1,4 +1,4 @@
-const countBf = num => {
+const stringPaint = num => {
   let arr = []
   for (let i = 0; i < num; i++) {
     arr[i] = i + 1
@@ -33,4 +33,4 @@ const countBf = num => {
   }
 }
 
-countBf(9)
+stringPaint(9)
